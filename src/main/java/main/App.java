@@ -103,6 +103,8 @@ class Impl {
 		Machine machine = new Machine(type, model, worker);
 
 		factory.addMachine(machine);
+
+		System.out.println("Kone lisätty!");
 	}
 
 	void listaaKaikkiKoneet() {
